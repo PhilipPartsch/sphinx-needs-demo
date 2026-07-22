@@ -119,7 +119,7 @@ local_plantuml_path = os.path.join(
 )
 plantuml = f"java -Djava.awt.headless=true -jar {local_plantuml_path}"
 # plantuml_output_format = 'png'
-plantuml_output_format = "svg_img"
+plantuml_output_format = "svg"
 
 
 # -- Options for HTML output -------------------------------------------------
